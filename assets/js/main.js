@@ -1,9 +1,4 @@
-/**
-* Template Name: Moderna - v4.10.1
-* Template URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function() {
   "use strict";
 
@@ -40,9 +35,6 @@
     el.addEventListener('scroll', listener)
   }
 
-  /**
-   * Scrolls to an element with header offset
-   */
   const scrollto = (el) => {
     let header = select('#header')
     let offset = header.offsetHeight
@@ -58,9 +50,7 @@
     })
   }
 
-  /**
-   * Toggle .header-scrolled class to #header when page is scrolled
-   */
+
   let selectHeader = select('#header')
   if (selectHeader) {
     const headerScrolled = () => {
